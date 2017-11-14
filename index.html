@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Creador de mapas conceptuales</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="go.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <div id="contain">
+    <div id="header">
+      <h1>Tarea 2 Programa</h1>
+      <p>
+        Realizar un programa que pueda dibujar mapas conceptuales.
+      </p>
+    </div>
+    <div id="selectors">
+    <div id="elements">
+      <p>Nodo: <input type="text" name="node" id="node">
+      <input type="button" name="addNode" value="Agregar" onclick="addElement()"></p>
+      <p><div id="lisEle">
+
+      </div></p>
+    </div>
+    <div id="relations">
+      <p>
+        De: <select id="from" name="" onchange="addFrom()">
+          <option value="" selected>Seleccionar</option>
+        </select>
+        A: <select id="to" name="" onchange="addTo()">
+          <option value="" selected>Seleccionar</option>
+        </select>
+
+
+      </p>
+      <p>
+        Etiqueta: <input type="text" name="label" id="labe">
+        <input type="button" name="addRelation" value="Agregar" onclick="addRelation()">
+      </p>
+    <p><div id="lisRel"></div></p>
+    </div>
+  </div>
+    <div id="buttons">
+      <input type="button" name="generate" value="Generar" onclick="inicio()">
+      <input type="button" name="delete" value="Borrar todo" onclick="deleteAll()">
+    </div>
+    <div id="myDiagramDiv">
+
+    </div>
+  </div>
+  </body>
+</html>

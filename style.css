@@ -1,0 +1,76 @@
+body
+{
+  background-color: #eee
+}
+div
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#contain
+{
+  width: 770px;
+  height: 860px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+}
+
+#header
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: 750px;
+  height: 80px;
+  text-align: center;
+}
+
+#selectors
+{
+  height: 200px;
+  width: 750px;
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+}
+#elements
+{
+  height: 180px;
+  width: 370px;
+  float: left;
+}
+#relations
+{
+  height: 180px;
+  width: 370px;
+  float: right;
+}
+#lisEle
+{
+  width: 370px;
+  height: 115px;
+  border: 1px solid black;
+  overflow-y: auto;
+}
+#lisRel
+{
+  width: 370px;
+  border: 1px solid black;
+  height: 115px;
+  overflow-y: auto;
+}
+#buttons
+{
+  margin-left: auto;
+  margin-right: auto;
+  height: 40px;
+  width: 750px;
+}
+#myDiagramDiv
+{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #DAE4E4;
+  width: 750px;
+  height: 500px;
+}

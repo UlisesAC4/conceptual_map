@@ -1,0 +1,15 @@
+{
+  "name": "mapa-conceptual",
+  "version": "1.0.0",
+  "description": "Este programa dibuja mapas conceptuales con la ayuda de la libreria GoJs, esta basado en Electron para correr como aplicacion de escritorio y AngularJs para usarse como aplicacion de una sola pagina.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^1.3.5"
+  }
+}
